@@ -85,7 +85,7 @@ module.exports = "<ul *ngFor=\"let t of task\">\n  Task No:{{\n    t.taskId\n  }
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhZGQtdGFzay9hZGQtdGFzay5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYWRkLXRhc2svYWRkLXRhc2suY29tcG9uZW50LmNzcyJ9 */"
 
 /***/ }),
 
@@ -153,7 +153,7 @@ AddTaskComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhbGwtdGFza3MvYWxsLXRhc2tzLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYWxsLXRhc2tzL2FsbC10YXNrcy5jb21wb25lbnQuY3NzIn0= */"
 
 /***/ }),
 
@@ -246,7 +246,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYXBwLmNvbXBvbmVudC5jc3MifQ== */"
 
 /***/ }),
 
@@ -339,7 +339,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzZWFyY2gtdGFzay9zZWFyY2gtdGFzay5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvc2VhcmNoLXRhc2svc2VhcmNoLXRhc2suY29tcG9uZW50LmNzcyJ9 */"
 
 /***/ }),
 
@@ -408,19 +408,19 @@ let TaskServiceService = class TaskServiceService {
         this.http = http;
     }
     getTasks() {
-        return this.http.post("http://localhost:9005/fetchAllTasks", 1996);
+        return this.http.post("/fetchAllTasks", 1996);
     }
     searchTasks(content) {
-        return this.http.post("http://localhost:9005/searchTask", content);
+        return this.http.post("/searchTask", content);
     }
     getPendingTasks() {
-        return this.http.post("http://localhost:9005/fetchAllIncompleteTasks", 1996);
+        return this.http.post("/fetchAllIncompleteTasks", 1996);
     }
     addTasks(t) {
-        return this.http.post("http://localhost:9005/saveTask", t);
+        return this.http.post("/saveTask", t);
     }
     changeStatusOfTask(id) {
-        return this.http.post("http://localhost:9005/changeStatus", id);
+        return this.http.post("/changeStatus", id);
     }
 };
 TaskServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -441,7 +441,7 @@ TaskServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YXNrcy90YXNrcy5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvdGFza3MvdGFza3MuY29tcG9uZW50LmNzcyJ9 */"
 
 /***/ }),
 
